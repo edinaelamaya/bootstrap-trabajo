@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="node_modules/open-iconic/font/css/open-iconic-bootstrap.min.css">
+    <title>Index</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <a href="#" class="navbar-brand"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a href="./index.html" class="nav-link">Inicio<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a href="./precios.html" class="nav-link">Precios</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./terminos.html" class="nav-link">terminos y condiciones</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./contacto.html" class="nav-link">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="jumbotron jumbotron-fluid text-white bg-success">
+        <div class="container">
+            <h1 class="display-4">
+                Hotel el gran salon</h1>
+        </div>
+    </div>
+    <div class="container">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">Inicio</a></li>
+            </ol>
+        </nav>
+        <div class="carousel slide" id="carouselExampleIndicators" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="carouselExampleIndicators" data-slide="0" class="active"></li>
+                <li data-target="carouselExampleIndicators" data-slide="1"></li>
+                <li data-target="carouselExampleIndicators" data-slide="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div  class="carousel-item active">
+                    <img src="./images/vista.jpeg" class="d-block w-100 mi-img-carrusel" alt="imagen vista hotel">
+                </div>
+                <div  class="carousel-item active">
+                    <img src="./images/vista2.jpeg" class="d-block w-100 mi-img-carrusel" alt="imagen vista hotel">
+                </div>
+                <div  class="carousel-item active">
+                    <img src="./images/vista3.jpeg" class="d-block w-100 mi-img-carrusel" alt="imagen vista hotel">
+                </div>
+            </div>
+            <a href="#carouselExampleIndicators" class="carousel-control-prev" role="button" data-slide="next">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        <div class="row">
+            <div class="d-flex">
+                <div class="col-sm-4">
+                    <p>
+                    <h3>desayuno</h3>
+                    <p class="lead">El servicio de desayuno del que esperan calidad, variedad y reposición.</p>
+                    </p>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <p>
+                <h3>Aparcamiento</h3>
+                <p class="lead">En ese sentido se hizo hincapié en el precio razonable que pretenden en este tipo de
+                    servicio.</p>
+                </p>
+            </div>
+            <div class="col-sm-4">
+                <p>
+                <h3>Comodidad</h3>
+                <p class="lead">Los colchones, el diseño y la ambientación pretenden ser moderna.</p>
+                </p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="d-flex flex-warp flex-row-reverse">
+                <div class="d-flex flex-column justify-content-between mi-card-hotel">
+                    <div class="card-header">
+                        <img class="card-img-top img-fluid" src="./images/hotel.jpeg" alt="Imagen hotel">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title mipopover" data-container="body" data-toggle="popover"
+                            data-placement="top" title="Hotel MakveliHotel"
+                            data-content="Reservas directas sin cargo adicional ni intermediarios">Individual</h5>
+                        <h6 class="card-subtitle text-muted p-1">Cúcuta</h6>
+                        <p class="card-text-lead">Desde 11 m<sup>2</sup> en 1 estrella y desde 16,5 m<sup>2</sup> en 5
+                            estrellas.</p>
+                        <p class="card-text text-primary" data-toggle="tooltip" data-placement="top"
+                            title="Con las mejores vistas de la ciudad">
+                            Más información...
+                        </p>
+                    </div>
+                    <div class="card-footer bg-primary">
+                        <button class="btn btn-primary btn-sm mi-button-card">
+                            <span class="oi oi-plus pr-1"></span>
+                            Reservar
+                        </button>
+                    </div>
+                    <h4>Individual</h4>
+                    <p>Desde 11 m<sup>2</sup> en 1 estrella y desde 16,5 <sup>2</sup> en 5 estrellas</p>
+                    <button class="btn btn-primary btn-sm w-100 mi-button-card" type="button" id="miBtnReserva"
+                        data-toggle="modal" data-target="#miModal">
+                        <span class="oi oi-plus mi-footer-address-icon"></span>
+                        Reservar
+                    </button>
+                </div>
+                <div class="d-flex flex-column justify-content-between mi-card-hotel">
+                    <h4>Doble</h4>
+                    <p>Desde 11 m<sup>2</sup> en 1 estrella y desde 16,5 m<sup>2</sup> en 5 estrellas.</p>
+                    <button class="btn btn-primary btn-sm">Reservar</button>
+                </div>
+                <div class="d-flex flex-column justify-content-between mi-card-hotel">
+                    <h4>Doble</h4>
+                    <p>Desde 11 m<sup>2</sup> en 1 estrella y desde 16,5 m<sup>2</sup> en 5 estrellas.</p>
+                    <button class="btn btn-primary btn-sm">Reservar</button>
+                </div>
+                <div class="d-flex flex-column justify-content-between mi-card-hotel">
+                    <h4>Doble</h4>
+                    <p>Desde 11 m<sup>2</sup> en 1 estrella y desde 16,5 m<sup>2</sup> en 5 estrellas.</p>
+                    <button class="btn btn-primary btn-sm">Reservar</button>
+                </div>
+                <div class="d-flex flex-column justify-content-between mi-card-hotel">
+                    <h4>Doble</h4>
+                    <p>Desde 11 m<sup>2</sup> en 1 estrella y desde 16,5 m<sup>2</sup> en 5 estrellas.</p>
+                    <button class="btn btn-primary btn-sm">Reservar</button>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="d-flex flex-warp flex-row-reverse">
+                <div class="d-flex flex-column justify-content-between mi-card-hotel">
+                    <h4>Individual</h4>
+                    <p>Desde 11 m<sup>2</sup> en 1 estrella y desde 16,5 m<sup>2</sup> en 5 estrellas</p>
+                    <button class="btn btn-primary btn-sm">Reservar</button>
+                </div>
+                <div class="d-flex flex-column justify-content-between mi-card-hotel">
+                    <h4>Doble</h4>
+                    <p>Desde 11 m<sup>2</sup> en 1 estrella y desde 16,5 m<sup>2</sup> en 5 estrellas.</p>
+                    <button class="btn btn-primary btn-sm">Reservar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="row">
+            <div class="col-md-4 d-flex flex-column aling-items-start mb-2">
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">Youtube</a>
+                <a href="#">Instagram</a>
+            </div>
+            <div class="col-md-4 mb-2 d-flex flex-column align-items-start">
+                <div class="modal fade" id="miModal" tabindex="-1" aria-labelledby="miModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="miModalLabel">Nueva reserva</h5>
+                            </div>
+                            <div class="modal-body">
+                                <form>
+                                    <div class="form-group">
+                                        <label for="recipient-name" class="col-form-label">Nombre:</label>
+                                        <input type="text" class="form-control" id="recipient-name">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="recipient-celular" class="col-form-label">Celular:</label>
+                                        <input type="text" class="form-control" id="recipient-celular">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="recipient-message" class="col-form-label">Mensaje:</label>
+                                        <input type="text" class="form-control" id="recipient-message">
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                                <button type="button" class="btn btn-primary">Reservar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <address>
+                    <h3>Ubicación</h3>
+                    <p><span class="oi oi-map mi-footer-address-icon"></span>Cll 13 Av1 #9-25</p>
+                    <p><span class="oi oi-phone mi-footer-address-icon"></span>+57 3004913086</p>
+                    <p><span class="oi oi-envelope-closed mi-footer-address-icon"></span>MakaveliHotels@fivestarts.com
+                    </p>
+                </address>
+            </div>
+            <div class="col-md-4 d-flex flex-column align-items-end mb-2">
+                <a href="./nosotros.html">Nosotros</a>
+                <a href="./precios.html">Precios</a>
+                <a href="./terminos.html">Terminos y condiciones</a>
+                <a href="./contacto.html">Contacto</a>
+            </div>
+        </div>
+    </footer>
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>

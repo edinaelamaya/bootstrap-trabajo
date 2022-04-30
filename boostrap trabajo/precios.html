@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Nosotros</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <a href="#" class="navbar-brand"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="./index.html" class="nav-link">Inicio<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a href="./nosotros.html" class="nav-link">Nosotros</a>
+                </li>
+                <li class="nav-item active">
+                    <a href="./precios.html" class="nav-link">Precios</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./terminos.html" class="nav-link">terminos y condiciones</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./contacto.html" class="nav-link">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="jumbotron jumbotron-fluid text-white bg-success">
+        <div class="container">
+            <h1 class="display-4">
+                Hotel el gran salon</h1>
+        </div>
+    </div>
+    <div class="container">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="./index.html">Inicio</a></li>
+                <li class="breadcrumb-item" aria-current="page">Nosotros</li>
+                <li class="breadcrumb-item"><a href="./contacto.html">Contacto</a></li>
+            </ol>
+        </nav>
+        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <a href="#valoracion-pills" class="nav-link active" id="valoracion-pills-tab" data-toggle="pill"
+                    role="tab" aria-controls="valoracion-pills" aria-selected="true">Valoración</a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a href="#tarjetas-pills" class="nav-link" data-toggle="pill" id="tarjetas-pills-tab"
+                    role="tab">Tarjetas</a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a href="#comentarios-pills" class="nav-link" id="comentarios-pills-tab" data-toggle="pill"
+                    role="tab">Comentarios</a>
+            </li>
+        </ul>
+        <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="valoracion-pills" role="tabpanel"
+                aria-labelledby="tarjetas-pills-tab">
+                <div class="table-responsive">
+                    <!-- falta una tabla que no esta en el codigo-->
+                </div>
+            </div>
+            <div class="tab-pane fade" id="tarjetas-pills" role="tabpanel" aria-labelledby="tarjetas-pills-tab">
+                <div class="d-flex justify-content-center">
+                    <div class="card text-white bg-secondary">
+                        <div class="card-header">
+                            Tarjetas aceptadas
+                        </div>
+                        <ul class="list-group list-group-flush text-success">
+                            <li class="list-group-item">Tarjeta basica</li>
+                            <li class="list-group-item">Tarjeta V.I.P</li>
+                            <li class="list-group-item">Tarjeta Black</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="comentarios-pills" role="tabpanel" aria-labelledby="comentarios-pills-tab">
+                <p>No hay comentario</p>
+            </div>
+        </div>
+        <div class="table-responsive">
+            <table class="table table-striped">
+                <thead class="thead-light">
+                    <tr>
+                        <th scope="col">Estrellas</th>
+                        <th scope="col">Bogotá</th>
+                        <th scope="col">Cali</th>
+                        <th scope="col">Medellín</th>
+                        <th scope="col">Cartagena</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">
+                            <span class="oi oi-star"></span>
+                        </th>
+                        <td>$ 30.000</td>
+                        <td>$ 32.000</td>
+                        <td>$ 35.000</td>
+                        <td>$ 37.000</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">
+                            <span class="oi oi-star"></span>
+                            <span class="oi oi-star"></span>
+                        </th>
+                        <td>$ 40.000</td>
+                        <td>$ 42.000</td>
+                        <td>$ 45.000</td>
+                        <td>$ 47.000</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="container">
+        <div class="d-flex flex-warp flex-row-reverse">
+            <div class="d-flex flex-column justify-content-between mi-card-hotel">
+                <h4>Individual</h4>
+                <p>Desde 11 <sup>2</sup> en 1 estrella y desde 16,5 <sup>2</sup> en 5 estrellas</p>
+                <button class="btn btn-primary btn-sm">Reservar</button>
+            </div>
+            <div class="d-flex flex-column justify-content-between mi-card-hotel">
+                <h4>Doble</h4>
+                <p>Desde 11 <sup>2</sup> en 1 estrella y desde 16,5 <sup>2</sup> en 5 estrellas.</p>
+                <button class="btn btn-primary btn-sm">Reservar</button>
+            </div>
+            <div class="d-flex flex-column justify-content-between mi-card-hotel">
+                <h4>Doble</h4>
+                <p>Desde 11 <sup>2</sup> en 1 estrella y desde 16,5 <sup>2</sup> en 5 estrellas.</p>
+                <button class="btn btn-primary btn-sm">Reservar</button>
+            </div>
+            <div class="d-flex flex-column justify-content-between mi-card-hotel">
+                <h4>Doble</h4>
+                <p>Desde 11 <sup>2</sup> en 1 estrella y desde 16,5 <sup>2</sup> en 5 estrellas.</p>
+                <button class="btn btn-primary btn-sm">Reservar</button>
+            </div>
+            <div class="d-flex flex-column justify-content-between mi-card-hotel">
+                <h4>Doble</h4>
+                <p>Desde 11 <sup>2</sup> en 1 estrella y desde 16,5 <sup>2</sup> en 5 estrellas.</p>
+                <button class="btn btn-primary btn-sm">Reservar</button>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="d-flex flex-warp flex-row-reverse">
+            <div class="d-flex flex-column justify-content-between mi-card-hotel">
+                <h4>Individual</h4>
+                <p>Desde 11 <sup>2</sup> en 1 estrella y desde 16,5 <sup>2</sup> en 5 estrellas</p>
+                <button class="btn btn-primary btn-sm">Reservar</button>
+            </div>
+            <div class="d-flex flex-column justify-content-between mi-card-hotel">
+                <h4>Doble</h4>
+                <p>Desde 11 <sup>2</sup> en 1 estrella y desde 16,5 <sup>2</sup> en 5 estrellas.</p>
+                <button class="btn btn-primary btn-sm">Reservar</button>
+            </div>
+        </div>
+    </div>
+    </div>
+    <footer>
+        <div class="row">
+            <div class="col-md-4 d-flex flex-column aling-items-start mb-2">
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">Youtube</a>
+                <a href="#">Instagram</a>
+            </div>
+            <div class="col-md-4 mb-2">
+                <address>
+                    <h3>Ubicación</h3>
+                    <p><span class="oi i-map mi-footer-address-icon"></span>Cll 13 Av1 #9-25</p>
+                    <p><span class="oi i-phone mi-footer-address-icon"></span>+57 3004913086</p>
+                    <p><span class="oi i-envelope-closed mi-footer-address-icon"></span>MakaveliHotels@fivestarts.com
+                    </p>
+                </address>
+            </div>
+            <div class="col-md-4 d-flex flex-column align-items-end mb-2">
+                <a href="./contacto.html">Nosotros</a>
+                <a href="./precios.html">Precios</a>
+                <a href="./terminos.html">Terminos y condiciones</a>
+                <a href="./contacto.html">Contacto</a>
+            </div>
+        </div>
+    </footer>
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>

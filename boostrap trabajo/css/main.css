@@ -1,0 +1,31 @@
+footer{
+    padding: 10 px 10px 0 10px;
+    background-color: #689f38;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    color: white;
+    text-align: center;
+}
+footer.row{
+    margin-right: 0;
+    margin-left: 0;
+}
+footer a{
+    color: white;
+}
+.mi-footer-address-icon{
+    padding-right: 16px;
+}
+.mi-card-hotel{
+    flex: 1 200px;
+    margin-top: 8px;
+    margin-left: 8px;
+}
+.mi-button-card{
+    width: 100%;
+    border-radius: 0px;
+}
+.mi-img-carrusel{
+    height: 400px;
+    object-fit: cover;
+}
